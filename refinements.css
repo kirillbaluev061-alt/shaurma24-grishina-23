@@ -90,3 +90,12 @@ iframe[title="Powered by Netlify"] { display: none !important; }
   .menu-toolbar { align-items:flex-start; }
   #dialog-media .food-crop { width:calc(100vw - 64px); height:40svh; }
 }
+
+
+/* High-resolution individual dish photos */
+.food-crop { background-size:cover; background-position:center; }
+.food-garlic { background-image:url('assets/food-garlic.png'); background-size:cover; background-position:center; }
+.food-classic { background-image:url('assets/food-classic.png'); background-size:cover; background-position:center; }
+.food-pita { background-image:url('assets/food-pita.png'); background-size:cover; background-position:center; }
+.food-cheese { background-image:url('assets/food-cheese.png'); background-size:cover; background-position:center; }
+#dialog-media .food-crop { background-size:cover; background-position:center; }
